@@ -9,6 +9,10 @@ public class Kata5P1 {
     public static void main(String[] args) {
         SelectApp app = new SelectApp();
         app.selectAll();
+        
+        
+        //Ahora creamos la base de datos (Version 2)
+        CrearTabla.createNewTable();
     }
     
 }       
